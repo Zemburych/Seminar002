@@ -1,0 +1,72 @@
+html,
+body {
+    overflow-x: hidden;
+    background: url(/img/cloud.jpg) repeat-x 0 100% fixed,
+        linear-gradient(to top, #5080b1, #004e8c) fixed;
+    animation: cloud 30s linear infinite;
+    -webkit-animation: cloud 30s linear infinite;
+}
+@font-face {
+    font-family: 21063; 
+    src: url(/fonts/21063.otf); 
+   }
+@keyframes cloud {
+    from {
+        background-position: -1000px 100%, 0 0;
+    }
+
+    to {
+        background-position: 0 100%, 0 0;
+    }
+}
+
+@-webkit-keyframes cloud {
+    from {
+        background-position: -1000px 100%, 0 0;
+    }
+
+    to {
+        background-position: 0 100%, 0 0;
+    }
+}
+
+h1 {
+    font-family: Papyrus, fantasy;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main {
+    width: 1000px;
+    float: center;
+    text-indent: 20px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar {
+    width: 1000px;
+    float: center;
+    text-indent: 20px;
+    background-color: khaki;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end {
+    width: 1000px;
+    float: center;
+    background-color: rgb(143, 235, 140);
+    text-indent: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    float: right;
+    
+}
